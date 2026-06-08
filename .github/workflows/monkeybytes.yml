@@ -2,7 +2,7 @@ name: MonkeyBytes
 
 on:
   schedule:
-    - cron: '0 1 * * *'  # 每天凌晨1点 UTC 执行
+    - cron: '20 5 * * *'  # 每天凌晨1点 UTC 执行
   workflow_dispatch:
 
 jobs:
